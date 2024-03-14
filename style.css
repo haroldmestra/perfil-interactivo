@@ -1,0 +1,122 @@
+body {
+    background-color: #85E3FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, h2, h3 {
+    color: #007bff;
+}
+blockquote {
+    margin-left: 20px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+video, audio {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+textarea {
+    margin: 10px auto;
+    display: block;
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.section .content_input{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.content_input input{
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 20px;
+    padding: 20px 0 5px 10px;
+    font-size: 1rem;
+}
+.content_input textarea{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 20px 0 5px 10px;
+    font-size: 1rem;
+    margin: 0;
+    width: auto;
+}
+.content_input label{
+    position: absolute;
+    font-size: 11px;
+    padding: 7px 0 0 10px;
+    color: grey;
+}
+
+.btn_enviar{
+    display: flex;
+    justify-content:center ;
+}
+
+btn_atras{
+    color: white;
+    background: red;
+}
+
+.perfil{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: auto;
+    box-shadow: 0 0 22px gray;
+}
